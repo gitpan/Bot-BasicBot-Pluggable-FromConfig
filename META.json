@@ -30,7 +30,7 @@
          "requires" : {
             "CPAN::Meta" : "0",
             "CPAN::Meta::Prereqs" : "0",
-            "Module::Build" : "0.38"
+            "Module::Build::Tiny" : "0.035"
          }
       },
       "develop" : {
@@ -59,7 +59,7 @@
    "provides" : {
       "Bot::BasicBot::Pluggable::FromConfig" : {
          "file" : "lib/Bot/BasicBot/Pluggable/FromConfig.pm",
-         "version" : "0.5"
+         "version" : "0.6"
       }
    },
    "release_status" : "stable",
@@ -73,5 +73,9 @@
          "web" : "https://github.com/ungrim97/Bot-BasicBot-Pluggable-FromConfig"
       }
    },
-   "version" : "0.5"
+   "version" : "0.6",
+   "x_contributors" : [
+      "Dominic Humphries <dominich@broadbean.com>",
+      "ungrim97 <ungrim97@hotmail.com>"
+   ]
 }
